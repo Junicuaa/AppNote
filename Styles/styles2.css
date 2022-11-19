@@ -82,9 +82,9 @@ header .btn {
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 6vw;
+  position: relative;
+  top: 100px;
+  left: 1vw;
 }
 footer .container {
   display: flex;
