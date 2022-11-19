@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Styles/normalize.css">
+    <link rel="stylesheet" href="/Styles/styles5.css">
+    <title>Módulos</title>
+</head>
+
+<body>
+    <header>
+        <img src="/Images/1.png" alt="">
+        <a href="/html/page1.html">Ir atrás</a>
+    </header>
+    <div class="container">
+        <div>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#lengua"
+                id="btn">Lengua</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#english"
+                id="btn">English</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#quimica"
+                id="btn">Química</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-info" data-toggle="modal" data-target="#calculo"
+                id="btn">Cálculo</button>
+        </div>
+        <div>
+            <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#fisica"
+                id="btn">Física</button>
+        </div>
+    </div>
+    <div class="modalscontainer">
+        <div class="modal fade " id="lengua" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Lengua</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-danger col-sm-12" data-toggle="modal"
+                            data-target="#lengua1" id="btn">Literatura clásica</button>
+                        <button type="button" class="btn btn-danger col-sm-12" data-toggle="modal"
+                            data-target="#lengua2" id="btn">Literatura del Renacimiento</button>
+                        <button type="button" class="btn btn-danger col-sm-12" data-toggle="modal"
+                            data-target="#lengua3" id="btn">Literatura Contemporánea</button>
+                        <button type="button" class="btn btn-danger col-sm-12" data-toggle="modal"
+                            data-target="#lengua4" id="btn">Podcasts</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------QUIMICA---------------------------------------------------->
+        <div class="modal fade " id="quimica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Quimica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-success col-sm-12" data-toggle="modal"
+                            data-target="#quimica1" id="btn">Alcanos-Alquenos-Alquinos</button>
+                        <button type="button" class="btn btn-success col-sm-12" data-toggle="modal"
+                            data-target="#quimica2" id="btn">Aromáticos</button>
+                        <button type="button" class="btn btn-success col-sm-12" data-toggle="modal"
+                            data-target="#quimica3" id="btn">Videos</button>
+                        <button type="button" class="btn btn-success col-sm-12" data-toggle="modal"
+                            data-target="#quimica4" id="btn">Apoyo visual</button>
+                        <div class="modal-footer">
+                        </div>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------CALCULO----------------------------------------------------->
+        <div class="modal fade " id="calculo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Calculo</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-info col-sm-12" data-toggle="modal" data-target="#calculo1"
+                            id="btn">Funciones</button>
+                        <button type="button" class="btn btn-info col-sm-12" data-toggle="modal" data-target="#calculo3"
+                            id="btn">Limites</button>
+                        <button type="button" class="btn btn-info col-sm-12" data-toggle="modal" data-target="#calculo4"
+                            id="btn">Apoyo visual</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------FISICA------------------------------------------------------>
+        <div class="modal fade " id="fisica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Fisica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-warning col-sm-12" data-toggle="modal"
+                            data-target="#fisica1" id="btn">Hidrostática</button>
+                        <button type="button" class="btn btn-warning col-sm-12" data-toggle="modal"
+                            data-target="#fisica2" id="btn">Termodinámica</button>
+                        <button type="button" class="btn btn-warning col-sm-12" data-toggle="modal"
+                            data-target="#fisica3" id="btn">Presión</button>
+                        <button type="button" class="btn btn-warning col-sm-12" data-toggle="modal"
+                            data-target="#fisica4" id="btn">Densidad</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------INGLES------------------------------------------------------>
+        <div class="modal fade " id="english" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">English</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <button type="button" class="btn btn-primary col-sm-12" data-toggle="modal"
+                            data-target="#ingles1" id="btn">Regular and Iregular Verbs</button>
+                        <button type="button" class="btn btn-primary col-sm-12" data-toggle="modal"
+                            data-target="#ingles2" id="btn">Past Simple</button>
+                        <button type="button" class="btn btn-primary col-sm-12" data-toggle="modal"
+                            data-target="#ingles3" id="btn">Past Continuous</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modalscontainer2">
+        <div class="modal fade " id="lengua1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Literatura clásica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ¿Qué es la literatura clásica?
+
+                        Se llama literatura clásica a las producciones que se realizaron en Grecia y Roma desde el siglo
+                        X a. C. hasta el siglo V d. C. Puede pensarse como la primera corriente literaria occidental,
+                        con relatos escritos y cantados.
+                        Los clásicos griegos son escritos en griego antiguo, incluye algunos autores y textos
+                        posteriores al dominio romano. Pero no así los textos en griego moderno. En Atenas, en el siglo
+                        V se produce un estallido en la creación literaria.
+                        Por otro lado, los clásicos latinos están escritos en latín desde la consolidación de la
+                        república (siglo I a. C.) hasta la caída del Imperio romano de Occidente (siglo V d. C.). Las
+                        producciones posteriores, aunque son en latín se consideran de la literatura medieval.
+
+                        Origen de la literatura clásica
+
+                        En la palabra Clásico concentra una metáfora que hace referencia a la organización social
+                        militar del pueblo romano en clases. El ciudadano classicus era parte de una
+                        primera classis integrada por senadores que debían votar.
+                        Pero el término surge durante el período del Renacimiento (movimiento Europeo que tiene su
+                        apogeo en el siglo XVI), para referirse a la literatura, artes y pensamientos e ideas en general
+                        anteriores a la Edad Media, considerada oscura. El Renacimiento mostró lo clásico con los
+                        valores de la estabilidad, la unidad y el orden
+                        Características de la literatura clásica
+
+                        En la literatura clásica se manifiesta un trasfondo mítico en los temas y  los personajes, pero
+                        esto no es lo único en que se destaca . Las características principales son:
+
+                        Está escrita en latín y griego, lenguas muertas.
+
+                        Busca la originalidad tanto estilística como temática. Son referentes a ser imitados.
+
+                        Es estética, utiliza la palabra como herramienta para la creación de la belleza.
+
+                        Es didáctica y moralizante.
+
+                        Refleja ideales y virtudes valiosas para la época.
+
+                        Tiene armonía, la belleza y el equilibrio entre la forma y el fondo son requerimientos
+                        primordiales.
+
+                        Es fatalista, la creencia en la predestinación, en el destino prefijado está presente en las
+                        obras.
+
+                        Es racionalista, la creación artística está mediada y establecida por la razón.
+
+                        Es antropocentrista, tiene al humano como centro y medida de todas las cosas.
+
+                        La acción de las historias se desarrolla durante la época dorada, un tiempo ficcional en el que
+                        conviven humanos con los dioses y criaturas extrañas, creaciones divinas.
+
+                        Los personajes son héroes, semidioses, superiores al resto de los humanos y reflejan los valores
+                        importantes para el pueblo.
+
+                        Los dioses se involucran en los relatos y pueden participar como personajes que ayudan o
+                        maldicen a los héroes.
+
+                        Tipos de literatura clásica
+
+                        La búsqueda racional de conocimiento impulsó a los griegos a sistematizar el saber en grandes
+                        disciplinas. De este modo separaron lírica y épica, tragedia y comedia, mito e
+                        historia, ensayo y crítica, etc.
+
+                        Poesía épica
+
+                        Artículo principal: Poesía épica.
+
+                        En la antigua Grecia surge la épica clásica y un subgénero derivado: la epopeya. Son narraciones
+                        en cantos de mitos y aventuras de héroes legendarios, como Aquiles y Ulises, entre otros.
+                        Este subgénero en verso se distingue por comenzar in medias res y por la intervención de los
+                        dioses en los asuntos de los humanos. Los ejemplos más significativos son La Ilíada y
+                        la Odisea de Homero.
+                        Lírica
+
+                        Artículo principal: Lírica.
+
+                        Los griegos la desarrollaron en forma de himno y elegía, desde los mitos hasta la poesía
+                        amorosa, en especial en la latina. Esto se observa en las obras de Ovidio, Catulo, Horacio y
+                        Marcial.
+                        Entre los griegos destacaron poetas como Safo, Anacreonte  y también Píndaro y Baquílides que
+                        realizaron cantos corales en honor a los atletas.
+
+                        La tragedia
+
+                        Artículo principal: Tragedia.
+
+                        Los tres autores griegos más importantes son Esquilo, Sófocles y Eurípides. Con Esquilo y La
+                        Orestíada, la tragedia toma la intensidad en el sufrimiento y la responsabilidad humanas. Con
+                        Eurípides el género dio un giro intelectual, explorando la ambigüedad del lenguaje.
+
+                        La comedia
+
+                        Surge en Grecia pero tiene un mayor desarrollo en Roma, gracias a escritores como Plauto y
+                        Terencio. Las comedias griegas de Aristófanes, obscenas, pero con contenido político, aparecen
+                        casi a la vez que las tragedias.
+
+                        La fábula y la novela
+
+                        Quizás te interese: Fábula, Novela.
+
+                        La fábula es un género de historias breves con moraleja y sus personajes son animales, Esopo es
+                        el autor más destacado.
+                        La novela comenzó a desarrollarse una escritura narrativa durante el período helenístico. Los
+                        autores principales son Petronio y Apuleyo.
+                        La fábula, generalmente, está orientado a un público juvenil y la novela a un público adulto.
+
+                        La filosofía, la historia y la oratoria
+
+                        Los postulados básicos del pensamiento filosófico y político dan lugar a dos grandes vertientes
+                        de la filosofía: el idealismo, de Platón; y el realismo, de Aristóteles. En el siglo VI los
+                        escritores filosóficos e históricos determinan el inicio de la prosa literaria griega.
+                        Los principales textos son los Diálogos de Platón, obras de Aristóteles y
+                        Fragmentos presocráticos (textos de Tales, Pitágoras, Diógenes, Heráclito, Parménides).
+                        Libros y autores de la literatura clásica
+
+                        Entre los autores y sus libros más destacados de la literatura clásica podemos encontrar:
+
+                        Homero (siglo VIII a. C.):
+
+                        La Ilíada: describe las últimas semanas de la guerra contra Troya por los griegos para recuperar
+                        a Helena, esposa de Menelao. Centrada en la cólera de Aquiles.
+
+                        La Odisea: relata el retorno de Odiseo a Ítaca desde Troya.
+                        Hesíodo (siglo VIII-VII a. C.):
+
+                        Los trabajos y los días: describe el año del labrador en la región griega de Beocia, enaltece la
+                        vida campestre e inculca principios morales.
+
+                        La Teogonía: narra cómo del caos surgió el orden natural de los elementos del universo y los
+                        dioses.
+
+                        Esquilo (525-456 a. C.):
+
+                        La Orestiada: trilogía de temas mitológicos compuesta por Agamenón, Las coéforas y Las
+                        Euménides.
+
+                        Sófocles (496-406 a. C.):
+
+                        Edipo rey: es la tragedia del héroe que no puede escapar de su destino, al matar al rey de Tebas
+                        y tomar su trono, sin saber que es su padre.
+
+                        Antígona: es el retorno a Tebas de la hija de Edipo después de su muerte.
+
+                        Eurípides (480-406 a. C.):
+
+                        Las obras representativas son Alcestes, Orestes, Las tropanas, Andrómaca y Medea. Trata la
+                        tragedia desde un ángulo más humano, considerando a los dioses irracionales.
+
+                        Publio Virgilio Marón (70-19 a. C.):
+
+                        La Eneida: imita la epopeya homérica, cantar la grandeza de Roma y glorifica al emperador
+                        Augusto.
+
+                        Publio Ovidio Nasón (43 a. C.-17 d. C.):
+
+                        Las metamorfosis: se basa en leyendas griegas. Narra las transformaciones de hombres en
+                        animales, fuentes, árboles, objetos, etc.
+
+                        Aristófanes (444-385 a. C.):
+
+                        Exponente de la comedia. Satirizó la política y la vida y costumbres atenienses. Se
+                        destacan: Las nubes, Lisístrata y Las avispas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="lengua2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Literatura Renacentista</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        La literatura renacentista se desarrolló en Italia durante el período del Renacimiento, entre
+                        los
+                        siglos XV y XVI. Formó parte de una revolución intelectual que buscaba promover la renovación de
+                        la cultura, el nuevo concepto de humanismo y la influencia de las invenciones de la época, como
+                        la
+                        imprenta, que permitió la difusión de textos.
+                        El nombre Renacimiento hace referencia al redescubrimiento de la filosofía greco-romana sobre la
+                        que
+                        se basaron tanto la literatura como el resto de las disciplinas artísticas del movimiento.
+                        Resultó
+                        un período de transición entre la Edad Media, en la que casi no hubo innovaciones ni cultivo de
+                        las artes, y la Edad Moderna.
+                        La revolucionaria literatura renacentista se basó en el concepto de humanismo que generó
+                        respuestas
+                        tanto positivas como negativas en los lectores, debido a las críticas que evidenciaba hacia la
+                        Iglesia católica. Por esa razón, los partidarios de la Iglesia prohibían o quemaban las obras
+                        impresas.
+                        La producción de libros iba en aumento y cada vez más personas asistían a la universidad, dos
+                        privilegios de los que, hasta esa época, solo gozaban los representantes de la clase sacerdotal.
+                        Muchos escritores renacentistas se formaron en esas universidades que abrían sus puertas a las
+                        masas.
+                        Roma dejó de ser el centro intelectual o cultural tras el decaimiento del poder, tanto de la
+                        Iglesia
+                        católica romana como de las ciudades-estado de Italia. Los eruditos del renacimiento comenzaron
+                        a
+                        viajar hacia otros países, difundiendo sus ideales y conocimientos.
+                        En 1492, durante el auge de esta corriente literaria, se produjo la invasión de América por
+                        parte de
+                        los españoles. Este acontecimiento impactó en los ideales del movimiento, reforzando el concepto
+                        de humanismo y sobrevalorando a la razón por sobre la fe.
+
+                        Características de la literatura renacentista
+                        La literatura renacentista intentaba plasmarse de realismo crítico.
+                        La literatura renacentista se caracterizó por enfatizar temas como:
+
+                        Amor. Fue el eje central de la poesía lírica, que deja de lado a Dios como centro y reconoce a
+                        la
+                        mujer como objeto admiración.
+
+                        Naturaleza. Fue idealizada por su gran belleza y por los sentimientos que generaba su gran
+                        magnitud
+                        y perfección.
+
+                        Mitología. Fue un tema reiterativo a través de los personajes más destacados de la antigua
+                        Grecia
+                        La literatura renacentista significó el regreso del estilo clásico de aprendizaje que, en gran
+                        medida, había sido ignorado durante la Edad Media porque la mayoría de los escritores
+                        glorificaban a
+                        la Iglesia católica y sus enseñanzas. A medida que las ciudades-estado comenzaron a prosperar,
+                        la
+                        corrupción religiosa se incrementó. Como consecuencia, la influencia de la Iglesia comenzaba a
+                        debilitarse.
+                        Los escritores del Renacimiento lograron difundir sus ideas e incorporar nuevos conocimientos
+                        como idiomas y valores, a medida que viajaban por Europa. Este cambio en el aprendizaje -que
+                        pasó de
+                        depender de toda sabiduría proveniente de la Iglesia a desarrollar el entendimiento y la razón-
+                        exacerbó el aprecio por el individuo humano. Ese concepto fue representado por el movimiento del
+                        humanismo.
+                        Tanto la literatura como las diversas disciplinas artísticas que representaron al movimiento del
+                        Renacimiento se caracterizaron por:
+
+                        La cultura clásica de Grecia y de Roma fue recuperada, hecho considerado el renacimiento de la
+                        tradición.
+
+                        La razón fue valorada por sobre la fe y la filosofía greco-romana se opuso a las ideas de la
+                        Iglesia
+                        católica.
+
+                        El ser humano fue considerado el centro del mundo (a diferencia de la Edad Media en la que Dios
+                        era
+                        el centro del universo).
+
+                        La naturaleza fue considerada como símbolo de perfección y fuente de placer.
+                        Representantes de la literatura renacentista
+
+                        Entre los principales representantes de la literatura renacentista, se destacan:
+
+                        Dante Alighieri (1265 – 1321). Fue un poeta italiano que se destacó, en particular, por una de
+                        sus
+                        obras, considerada fundamental para la transición del pensamiento medieval al renacentista: La
+                        divina comedia.
+
+                        Jean Molière (1622 – 1673). Fue un dramaturgo y poeta francés considerado unos de los mejores
+                        escritores de la literatura universal. Una de sus principales obras fue Tartufo.
+
+                        Nicolás Maquiavelo (1469 – 1527). Fue un diplomático, filósofo político y escritor considerado
+                        el
+                        padre de la Ciencia Política. Una de sus principales obras fue El príncipe.
+
+                        Baltasar Castiglione (1478 – 1529). Fue un diplomático y escritor italiano que escribió poesías
+                        líricas en lenguaje vulgar y poesías latinas. Una de sus principales obras fue El cortesano.
+
+                        Miguel Cervantes (1547 – 1616). Fue un novelista, poeta y soldado español, y uno de los más
+                        reconocidos escritores de la literatura española. Una de sus principales obras fue Don Quijote
+                        de la
+                        Mancha.
+
+                        Edmund Spenser (1552 – 1599). Fue un poeta inglés considerado uno de los pioneros y más
+                        influyentes
+                        de la lengua inglesa. Una de sus principales obras fue La reina de las hadas.
+
+                        William Shakespeare (1564 – 1616). Fue un dramaturgo y poeta inglés considerado el escritor más
+                        reconocido de la lengua inglesa. Una de sus principales obras fue Romeo y Julieta.
+
+                        Tomás Moro (1478 – 1535). Fue un pensador, teólogo, humanista y escritor inglés. Una de sus
+                        principales obras fue Utopía.
+
+                        Luís de Camões (1524 – 1580). Fue un escritor y poeta portugués considerado uno de los máximos
+                        exponentes de la lengua portuguesa. Una de sus principales obras fue Las lusíadas.
+
+                        Pierre de Ronsard (1524 – 1585). Fue un escritor y poeta francés considerado en su época como
+                        “el
+                        príncipe de los poetas”. Una de sus principales obras fue Los amores de Casandra.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="lengua3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Literatura Contemporánea</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        La literatura contemporánea refleja la remodelación política, social y espiritual.
+
+                        Índice temático
+
+                        ¿Qué es la literatura contemporánea?
+
+                        La literatura contemporánea es aquella producida en las épocas recientes y la actualidad. El
+                        límite
+                        respecto a cuándo comienza dicho período “reciente” es objeto de debate. Puede considerarse que
+                        comienza a fines del siglo XIX, pero en general se toma como momento de cambio el término de
+                        la Segunda Guerra Mundial (1939-1945).
+
+                        Más allá de las exactitudes temporales, lo importante a la hora de hablar de literatura
+                        contemporánea es hacerse una idea panorámica de las tendencias que han imperado en la literatura
+                        en
+                        el último siglo (el XX y a lo sumo los comienzos del XXI).
+                        Este período además fue clave para la remodelación política, social y espiritual del planeta
+                        entero.
+                        Por un lado, se atravesaron dos cruentas guerras mundiales y un conflicto de larga data como fue
+                        la
+                        Guerra Fría (1947-1991). Por otro lado, el legado filosófico, estético y espiritual de Occidente
+                        a
+                        raíz de ello se vio severamente afectado.
+                        Así, la literatura contemporánea recoge las angustias de un período de extravío en buena parte
+                        del
+                        mundo, a raíz del colapso de las potencias coloniales europeas que gobernaron hasta inicios del
+                        siglo XX, reemplazadas por los Estados Unidos como potencia económica, cultural y política de
+                        Occidente, y por la Unión Soviética como su contrapartida oriental.
+
+                        Esta última, además, tenía el reto de materializar las aspiraciones contraculturales y
+                        anticapitalistas de la clase media oprimida, y era la heredera de la filosofía marxista que las
+                        potencias capitalistas occidentales combatían.
+                        Por lo tanto, el desplome de la Unión Soviética y el fin de la Guerra Fría, durante la cual el
+                        mundo
+                        estuvo dividido en dos vertientes opuestas e incomunicadas, es uno de los grandes hitos cuya
+                        presencia puede sentirse aún en la literatura contemporánea, además de otras muchas artes.
+                        Este evento aparece bajo la forma de una exaltación del mundo liberal capitalista o bien del
+                        lamento
+                        por la muerte de los ideales, eso que se conoció como los “Grandes Relatos” y que según el
+                        filósofo
+                        nipón-estadounidense Francis Fukuyama (1952-) representaba el “fin de la historia”.
+
+                        Por otro lado, la literatura contemporánea es la primera en la historia que cuenta con un
+                        mercado
+                        editorial desarrollado y de alcances internacionales propiamente dicho. Esto se debe entre otras
+                        cosas a los procesos económicos de integración que condujeron a la globalización económica.
+                        Otro factor a considerar es la revolución científico-tecnológica que permitió acortar
+                        considerablemente las distancias del mundo y las formas de recorrerla. Debemos considerar que el
+                        mundo cambió más en términos tecnológicos y sociales durante el siglo XX, que durante eras
+                        enteras
+                        de la Antigüedad.
+                        Otro factor indispensable a la hora de pensar el contexto en que surge la literatura
+                        contemporánea
+                        es Internet. Con ella surgió no sólo una posibilidad comercial e informativa global, sino
+                        también de
+                        toda una cultura 2.0 a través de servicios de mensajería, foros, plataformas de intercambio
+                        y redes
+                        sociales. Ese fue el caldo de cultivo para el surgimiento de nuevas formas de escritura y de
+                        expresión. Incluso algunos sugieren que se están desarrollando que nuevas formas de literatura,
+                        que
+                        van de la mano de lo inmediato, lo veloz y lo diverso.
+                        Ver también: Edad contemporánea
+
+                        Características de la literatura contemporánea
+
+                        Cualquier caracterización de la literatura contemporánea es necesariamente injusta, pues el
+                        ritmo de
+                        cambios reales y literarios del mundo desde el primer tercio del siglo XX hasta el del siglo XXI
+                        es
+                        vertiginoso.
+                        No parece tratarse de la misma cosa cuando pensamos en la literatura de las
+                        segundas vanguardias (1945-1970) y la literatura del nuevo milenio (2000-actualidad). Aun así,
+                        podemos resaltar los siguientes rasgos comunes:
+
+                        Se valora la experimentación y la ruptura de los patrones tradicionales, especialmente en la
+                        literatura vanguardista, trasgenérica o posmoderna. Inicialmente el teatro y el relato asisten
+                        al
+                        mismo fenómeno, pero finalmente la novela termina absorbiendo las posibilidades de
+                        experimentación
+                        literaria.
+
+                        Surgen diversas tendencias de literatura de género (es decir, literatura popular): la ciencia
+                        ficción, el policial negro o noir, la literatura fantástica, la novela de terror, etc. Algunos
+                        gozan
+                        de mayor prestigio que otros en los circuitos académicos.
+
+                        En materia de relatos, se abandona del todo la mirada decimonónica de la sociedad, para dar
+                        lugar
+                        a nuevas variantes del realismo: realismo sucio, realismo socialista, realismo mágico, etc.
+                        Algunas
+                        tienden a cumplir agendas políticas o ideológicas, mientras que otros se aproximan
+                        al periodismo en
+                        su búsqueda de anécdotas y en su manera magra, objetiva, de contar.
+
+                        Otras vertientes experimentales abandonan la anécdota y se dedican a la meditación o
+                        la descripción,
+                        cuando no el meta-texto, lo fragmentario y el juego de referencias, construyendo artefactos
+                        literarios, más que novelas.
+
+                        La reversión, el homenaje y el guiño a la tradición son frecuentes, especialmente en abordajes
+                        satíricos y en reelaboraciones posmodernas, que intentan actualizar algún clásico moderno.
+
+                        Tiene una enorme cabida el testimonio y la no ficción como formas de elaboración literaria de
+                        los
+                        horrores de la guerra, la dictadura y la pobreza.
+
+                        Hacia fines de la segunda mitad del siglo XX surge una industria editorial robusta en la mayoría
+                        de
+                        las lenguas occidentales, con carteras de autores de diversa nacionalidad y posibilidad de
+                        distribución internacional, consolidando así un mercado editorial más o menos globalizado.
+
+                        Surge el interés por lo alternativo, especialmente a finales del siglo XX e inicios del XXI,
+                        cuando
+                        la literatura escrita en países del llamado Tercer Mundo (África, Latinoamérica, Asia menor)
+                        comienza a ganar interés en los grandes circuitos letrados y editoriales. A esto se le conoce
+                        como World Literature.
+
+                        Géneros literarios contemporáneos
+
+                        La literatura infantil no se había desarrollado previamente.
+                        En materia de géneros, la literatura contemporánea no ha cambiado demasiado el paradigma:
+
+                        La poesía. Continúa su camino libre de rimas y métricas, abarcando así un conjunto enorme y
+                        dispar
+                        de textos cuyo único rasgo afín es la sonoridad, la ausencia de relato y
+                        el lenguaje descriptivo. En
+                        algunos casos, los formatos breves de Internet permitieron cierto revival del haikú (la poesía
+                        hiperbreve japonesa) y subgéneros parecidos.
+
+                        La narrativa. Prioriza la novela como el gran género, bastante por encima del relato breve (que
+                        aún
+                        se cultiva), pero cediendo a las presiones de la experimentación: el hipervínculo, la novela de
+                        no
+                        ficción, la novela posmoderna, distintas aproximaciones que intentan revolucionar el género de
+                        la
+                        novela se han producido a lo largo de casi un siglo, sin demasiado éxito en realmente reformular
+                        lo
+                        que es una novela. Por otro lado, la crónica y la no ficción, de la mano del periodismo, han
+                        surgido
+                        como una importante tendencia entre los escritores de narrativa, así como el diario y otros
+                        formatos
+                        breves que se creían extintos, como el microrrelato. La novela parece haberse convertido en el
+                        género en el que todo cabe.
+
+                        La literatura infantil. Surge también en la contemporaneidad, y comprende una rama entera de
+                        relatos
+                        y juegos poéticos dedicados a lectores infantiles. Este género no habría sido posible
+                        anteriormente,
+                        dado que el concepto de “infancia” es relativamente reciente para la humanidad.
+
+                        El ensayo. Ha variado muy poco desde su aparición en la Edad Moderna, pero se ha restringido a
+                        un
+                        ámbito académico o letrado, siendo quizá el género menos popular en la literatura contemporánea.
+
+                        La dramaturgia. Atravesó enormes cambios durante el siglo XX, especialmente de la mano de las
+                        vanguardias, las cuales vieron en el montaje teatral la herramienta para alcanzar grandes
+                        públicos,
+                        algo que luego el cine conquistó para sí. Los grandes dramaturgos del siglo XX dejaron su
+                        impronta
+                        para siempre en el teatro, que de cara al fin de siglo parece sucumbir ante otros formatos
+                        digitales
+                        de espectáculo.
+
+                        Además, las obras transgenéricas prometen una fusión de géneros o una experiencia lectora al
+                        margen
+                        de ellos, lo cual es un rasgo único y característico de la época moderna: lo diverso, lo
+                        múltiple y
+                        el collage. Sin embargo, la mayoría de estos libros “transgenéricos” pueden ser clasificados
+                        como
+                        novelas o como ensayos.
+
+                        Temas frecuentes de la literatura contemporánea
+
+                        Los temas de mayor recurrencia en la literatura contemporánea pueden resumirse en:
+
+                        La memoria y el testimonio. Dado el número elevado de guerras, dictaduras,
+                        masacres, revoluciones y
+                        crisis socioeconómicas del siglo XX e inicios del XXI, el impulso de contar y de conservar la
+                        memoria individual como legado a las generaciones venideras se hizo muy frecuente.
+
+                        La ficción de género. El terror, la ciencia ficción, el fantasy, el policial noir y otros
+                        géneros
+                        populares abundan en la literatura contemporánea, especialmente en la destinada al consumo de
+                        las
+                        masas, así como combinaciones entre estos géneros: fantasy/terror, policial de ciencia ficción,
+                        etc.
+
+                        El coming of age. Se conoce con este nombre a los relatos que abordan la vida de
+                        un personaje infantil, un niño, y lo acompañan a lo largo del descubrimiento de la adultez, o
+                        sea, a
+                        través de diversos eventos que le llevarán a descubrir quién es.
+
+                        La novela familiar. Abordando a los miembros de una familia, ya sea haciendo énfasis en uno de
+                        ellos
+                        o no, en este caso se narran las desventuras de la casta familiar, a menudo como una forma de
+                        paralelismo con el destino de los países (familia = país).
+
+                        El cuestionamiento de lo real. La duda sobre lo que es real y lo que no, sobre qué tanto pueden
+                        confiarse en los sentidos y sobre las simulaciones tecnológicas está presente en muchos de los
+                        relatos de la literatura contemporánea. Muchas de estas angustias son fruto del boom tecnológico
+                        reciente.
+
+                        Las distopías y el fin del mundo. Otro escenario recurrente tanto en la literatura como el cine
+                        contemporáneos tiene que ver con el fin del mundo, el fin de la civilización o la supervivencia
+                        de
+                        catástrofes planetarias. Este tema fue particularmente común durante los momentos críticos de la
+                        Guerra Fría. También son frecuentes las reinterpretaciones históricas, en las que se modifica la
+                        historia “oficial”.
+
+                        La escritura misma. Existe toda una vertiente literaria en la contemporaneidad dedicada a
+                        reflexionar sobre la naturaleza del arte y de la escritura, a jugar con escritores o libros
+                        imaginarios, a intervenir el canon literario u otras operaciones de homenaje, sátira o
+                        apropiación
+                        similares.
+
+                        Autores relevantes de la literatura contemporánea
+
+                        Mario Vargas Llosa ganó el Premio Nobel de Literatura en 2010.
+                        Cualquier listado que intentáramos en esta materia estaría necesariamente incompleto, pero de
+                        todos
+                        modos podemos intentar uno resumido:
+
+                        Jean-Paul Sartre (1905-1980). Filósofo, dramaturgo y escritor francés de alta implicación en la
+                        política mundial, fue ganador del Premio Nobel de Literatura en 1964, pero rechazó el premio
+                        debido
+                        a consideraciones ideológicas. Fue cultor del existencialismo y del marxismo humanista, y
+                        consorte
+                        de la escritora Simone de Beaouvoir.
+
+                        George Orwell (1903-1950). Escritor y periodista británico nacido en el Raj británico en la
+                        India,
+                        fue un fervoroso activista socialista en contra del imperialismo británico y opositor tanto al
+                        nazismo como el estalinismo durante la Segunda Guerra Mundial. Fue cronista, novelista y crítico
+                        literario, y es suya la figura del “Gran Hermano” (de su novela 1984) de uso común en la
+                        política
+                        hoy en día.
+
+                        Albert Camus (1913-1960). Escritor francés nacido en Argelia, desarrolló una importante obra
+                        novelística y dramatúrgica bajo el influjo del existencialismo alemán, y las obras de
+                        Schopenhauer y
+                        de Nietzsche. Se le confirió el Premio Nobel de Literatura en 1957.
+
+                        Primo Levi (1919-1987). Químico de profesión y de nacionalidad italiana, este escritor de
+                        orígenes
+                        judíos sobrevivió a los campos de exterminio del nazismo en Europa y desarrolló una importante
+                        obra
+                        testimonial contándolo y reflexionando sobre la naturaleza del fascismo.
+
+                        Aleksandr Solzhenitsyn (1918-2008). Escritor e historiador ruso ganador del Premio Nobel de
+                        Literatura en 1970. Su obra dio a conocer el Gulag, los campos de concentración del estalinismo
+                        en
+                        la Rusia soviética, en los que él mismo estuvo preso durante 11 años. Fue expulsado de la URSS
+                        en
+                        1974 y no pudo retornar hasta la disolución de esta nación comunista.
+
+                        Jack Kerouac (1922-1969). Novelista estadounidense de la llamada “generación beat”, junto al
+                        poeta
+                        Allen Ginsberg y el narrador William Burroughs. Fue miembro de la cultura hippie en contra del
+                        radicalismo, y falleció a los 47 años por causa del alcoholismo.
+
+                        Marguerite Yourcenar (1903-1987). Bajo este seudónimo escribió la novelista, ensayista,
+                        dramaturga y
+                        poeta belga-estadounidense, cuyas obras de rasgo poético y enorme erudición le abrieron las
+                        puertas
+                        de la Academia francesa.
+
+                        Sylvia Plath (1932-1963). Una de las más conocidas poetas de los Estados Unidos junto con Anne
+                        Sexton, ambas cultoras de la poesía confesional. Estuvo casada con el también escritor Ted
+                        Hughes, y
+                        pasó la mayor parte de su vida clínicamente deprimida, hasta su suicidio en 1963.
+
+                        Stanislaw Lem (1921-2006). Escritor polaco de ciencia ficción, cuya obra dotada de un tono
+                        satírico
+                        y filosófico ha sido llevada al cine con frecuencia, en filmes como Solaris. Es uno de los pocos
+                        autores de habla no inglesa considerado una verdadera autoridad en este género.
+
+                        Gabriel García Márquez (1927-2014). Máximo exponen del Realismo mágico, este escritor y
+                        periodista
+                        colombiano fue ganador del Premio Nobel de Literatura en 1982. Su obra Cien años de soledad es
+                        quizá
+                        una de las novelas más famosas del llamado “Boom Latinoamericano” de la segunda mitad del siglo
+                        XX.
+
+                        Mario Vargas Llosa (1936-). Escritor y político peruano, ganador del Premio Nobel de Literatura
+                        en
+                        2010 y del Premio Cervantes en 1994, posee una importante obra novelística que formó parte del
+                        “Boom
+                        Latinoamericano”. Fue candidato a la presidencia del Perú en 1990, cuando fue derrotado por
+                        Alberto
+                        Fujimori.
+
+                        Orhan Pamuk (1952-). Arquitecto y escritor de origen turco, ganador del Premio Nobel de
+                        Literatura
+                        en 2006, es autor de una obra que refleja con símbolos propios el choque de culturas propio de
+                        la
+                        nación turca. Sus obras han sido traducidas a más de 40 idiomas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="lengua4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Podcasts</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Podctast #1</h6>
+                        <audio controls>
+                            <source src="/Podcasts/lengua1.mpeg" type="audio/mpeg">
+                        </audio>
+                        <h6>Podctast #2</h6>
+                        <audio controls>
+                            <source src="/Podcasts/lengua2.mpeg" type="audio/mpeg">
+                        </audio>
+                        <h6>Podcast #3</h6>
+                        <audio controls>
+                            <source src="/Podcasts/lengua3.mpeg" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------------QUIMICA----------------------------------------------------->
+        <div class="modal fade " id="quimica1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Alcanos - Alquenos - Alquinos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Los alcanos, alquenos y alquinos son grupos funcionales de moléculas alifáticas (cadenas
+                        abiertas que no forman anillos) estos se caracterizan por solo contener átomos de carbono e
+                        hidrógeno en su estructura molecular.
+                        <h5><b>ALCANOS</b></h5>
+                        También conocidos como hidrocarburos saturados, son cadenas alifáticas de carbonos e hidrógenos,
+                        que se encuentran enlazados solo por enlaces covalentes sencillos, se nombran con los prefijos
+                        listados anteriormente con la terminación ano, ejemplos de ellos son: metano, butano y heptano.
+                        La cantidad de átomos de hidrógeno se puede identificar, si se conoce el número de carbonos (n)
+                        presentes en la molécula
+                        <h5><b>ALQUENOS</b></h5>
+                        También los pueden nombrar como hidrocarburos insaturados, son cadenas alifáticas de carbonos
+                        que pueden presentar uno, dos, o más dobles enlaces. Estos dobles enlaces son consecuencia de la
+                        pérdida de hidrógenos por la molécula, que para equilibrarse energéticamente establece dobles
+                        enlaces entre los átomos de carbono. Su notación en 
+                        química orgánica utiliza los prefijos mostrados anteriormente y la terminación eno.El número de
+                        átomos de hidrógeno puede calcularse en función del número de átomos de carbono en la molécula.
+                        <h5><b>ALQUINOS</b></h5>
+                        A estos también los puedes llamar hidrocarburos insaturados, son cadenas alifáticas de carbonos
+                        que pueden presentar uno, dos o más triples enlaces. Los triples enlaces se forman al
+                        deshidrogenar dos átomos de carbono que ya están enlazados entre sí por un doble enlace. Se
+                        nombran utilizando los prefijos usados anteriormente y la terminación ino
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="quimica2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Aromáticos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Los hidrocarburos aromáticos son aquellos hidrocarburos que poseen las propiedades especiales
+                        asociadas con el núcleo o anillo del benceno, en el cual hay seis grupos de carbono-hidrógeno
+                        unidos a cada uno de los vértices de un hexágono. Los enlaces que unen estos seis grupos al
+                        anillo presentan caracterís- ticas intermedias, respecto a su comportamiento, entre los enlaces
+                        simples y los dobles. Así, aunque el benceno puede reaccionar para formar productos de adición,
+                        como el ciclohexano, la reac- ción característica del benceno no es una reacción de adición,
+                        sino de sustitución, en la cual el hidrógeno es reemplazado por otro sustituto, ya sea un
+                        elemento univalente o un grupo.
+
+                        Los hidrocarburos aromáticos y sus derivados son compuestos cuyas moléculas están formadas por
+                        una o más estructuras de anillo estables del tipo antes descrito y pueden considerarse deri-
+                        vados del benceno de acuerdo con tres procesos básicos:
+
+                        1. por sustitución de los átomos de hidrógeno por radicales de
+
+                        hidrocarburos alifáticos,
+
+                        2. por la unión de dos o más anillos de benceno, ya sea directa- mente o mediante cadenas
+                        alifáticas u otros radicales inter- medios,
+
+                        3. por condensación de los anillos de benceno.
+
+                        Cada una de las estructuras anulares puede constituir la base de series homólogas de
+                        hidrocarburos, en las que una sucesión de grupos alquilo, saturados o no saturados, sustituye a
+                        uno o más átomos de hidrógeno de los grupos de carbono-hidrógeno.
+
+                        Las principales fuentes de hidrocarburos aromáticos son la destilación de la hulla y una serie
+                        de procesos petroquímicos, en particular la destilación catalítica, la destilación del petróleo.
+                        crudo y la alquilación de hidrocarburos aromáticos de las series más bajas. Los aceites
+                        esenciales, que contienen terpenos y p-ci- meno, también pueden obtenerse de los pinos, los
+                        eucaliptos y las plantas aromáticas y son un subproducto de las industrias pape- leras que
+                        utilizan pulpa de pino. Los hidrocarburos policíclicos se encuentran en las atmósferas urbanas.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="quimica3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Videos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <video src="/Podcasts/quimica1.mp4" controls></video>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="quimica4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apoyo visual</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/Podcasts/quimicaimg1.jpeg" class="img-fluid" alt="Responsive image">
+                        <hr>
+                        <img src="/Podcasts/quimicaimg2.jpeg" class="img-fluid" alt="Responsive image">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------CALCULO----------------------------------------------------->
+        <div class="modal fade " id="calculo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Funciones</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p> Qué son las funciones?
+                            <br>
+                            En matemáticas, las funciones son expresiones algebraicas que relacionan dos magnitudes
+                            diferentes. Es decir, las funciones matemáticas relacionan cada elemento de una magnitud con
+                            un
+                            único elemento de otra magnitudLas funciones se expresan mediante la letra y o con el
+                            símbolo
+                            f(x) indistintamente:
+
+                        <h5>y = f(x)</h5>
+
+                        Donde x es la variable independiente e y es la variable independiente.
+
+                        Dominio y recorrido de una función
+                        Otros dos conceptos muy importantes de las funciones son su dominio y su recorrido, cuyas
+                        definiciones son las siguientes:
+
+                        El dominio de una función real son todos los valores de x en los que existe la función. El
+                        dominio de una función se representa con la expresión Dom f.
+
+                        El recorrido de una función, o imagen de una función, son todos los valores de f(x) donde existe
+                        la función. El recorrido de una función se representa con la expresión: Im f.
+
+                        En matemáticas, el dominio de una función también se puede decir dominio de definición o campo
+                        de existencia. Por otro lado, se conoce el recorrido de una función como rango de una función.
+                        Continuidad de una función
+                        La continuidad de una función se puede estudiar gráficamente. Una función continua es aquella
+                        función que se puede representar en una gráfica sin levantar el lápiz del papel.Tipos de
+                        funciones
+                        Las funciones se pueden clasificar en los siguientes tipos:
+
+                        Funciones polinómicas: funciones cuya expresión algebraica es un polinomio.
+                        Funciones racionales: funciones expresadas en forma de fracción.
+                        Funciones radicales: funciones con raíces.
+                        Funciones exponenciales: funciones en las que la incógnita x forma parte del exponente de una
+                        potencia.
+                        Funciones logarítmicas: funciones con logaritmos en su expresión matemática.
+                        Funciones trigonométricas: funciones que están definidas por razones trigonométricas (el seno,
+                        el coseno, la tangente,…).
+                        Funciones definidas a trozos: funciones que cambian de expresión algebraica según el tramo al
+                        que pertenezca la variable independiente x.
+                        Funciones con valor absoluto: funciones cuya expresión está dentro del signo del valor absoluto.
+                        Funciones simétricas: funciones en las que se puede encontrar como mínimo un eje de simetría en
+                        su representación gráfica.
+                        Funciones periódicas: funciones cuya gráfica se va repitiendo cada cierto intervalo (el periodo
+                        de la función).
+                        Composición de funciones
+                        La composición de funciones consiste en evaluar un mismo valor de la variable independiente x en
+                        dos funciones o más de manera sucesiva. Por ejemplo, la composición de funciones (g o f)(x) da
+                        como resultado la función compuesta g[f(x)].La expresión de la función compuesta g\circ f se lee
+                        «f compuesta con g» o «f seguida de g».
+
+                        Ten en cuenta que el orden es importante en la composición de funciones, primero se aplica la
+                        función que está a la derecha del símbolo de composición (f) y luego la función que está a la
+                        izquierda del símbolo de composición (g).
+                        Función inversa
+                        La función inversa, también llamada función recíproca, es aquella función cuyo dominio es el
+                        recorrido de otra función (la función original) y cuyo recorrido es el dominio de la función
+                        original. La función inversa de la función f se expresa con el símbolo f-1.
+
+                        Por lo tanto, la función inversa de f(x) es la función que cumple la siguiente condición:
+                        Donde f^{-1} es la función inversa de f.
+
+                        El concepto de función inversa también se puede definir utilizando la composición de funciones,
+                        ya que cualquier función compuesta con su función inversa es igual a la función identidad
+
+                        De manera que si se cumple la ecuación anterior significa que f^{-1} es la función inversa (o
+                        función recíproca) de f.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="calculo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Videos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="calculo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Apoyo visual</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/Images/calculoimg1.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/calculoimg2.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/calculoimg3.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/calculoimg4.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/calculoimg5.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/calculoimg6.jpeg" alt="" class="img-fluid">
+                        <hr>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------------------------------------FISICA------------------------------------------------------>
+        <div class="modal fade " id="fisica1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Hidrostática</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            La hidrostática es el estudio de los fluidos en estado de reposo que pertenece al campo de
+                            la mecánica de fluidos, llamada también hidráulica.
+
+                            El principio de la hidrostática indica que la diferencia de presión entre dos puntos de un
+                            mismo líquido es igual al producto del peso específico del líquido determinado por la
+                            diferencia de los niveles. Este principio se expresa en la siguiente fórmula:
+                        </p>
+                        <img src="/Images/fisica1.jpeg" alt="" class="img-fluid">
+                        <p>para calcular la hidrostática y su presión, se debe tomar además dos principios que definen
+                            el comportamiento de ésta:
+
+                            el principio de Pascal que indica que un líquido en reposo ejerce presión en todos los
+                            sentidos, y
+                            el principio de Arquímedes describe cómo el aumento de la profundidad provoca una mayor
+                            presión permitiendo la flotabilidad de objetos dentro del líquido.
+                            Por otro lado, la hidrodinámica es la ciencia que estudia los fluidos en movimiento.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="fisica2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Termodinámica</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            En la física termodinámica, la presión hidrostática es aquella que el mismo fluido en reposo
+                            ejerce sobre su peso. En la hidrostática o estudio de los fluidos en reposo, existe la
+                            presión hidrostática y la presión atmosférica, siendo esta última, aquella presión que
+                            ejerce la atmósfera sobre el fluido.
+
+                            Los estados sólido, líquido y gaseoso se comportan bajo las mismas leyes pero los fluidos
+                            tienen una capacidad especial de cambiar de forma, aumentando su volumen y no su masa.
+
+                            De esta forma, la hidrostática se mide a través de la densidad (p), gravedad (g) y
+                            profundidad (h) del fluido, y no por su masa o volumen. La presión hidrostática se define
+                            por la siguiente fórmula:
+                        </p>
+                        <img src="/Images/fisica2.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="fisica3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Presión</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            Que es densidad: Este término es definido como la
+                            magnitud o capacidad para medir la cantidad de masa existente en el volumen de una sustancia
+                            determinada. Dentro de las áreas de química y física, la definición del término dentro de un
+                            enfoque del material químico, líquido o gaseoso hace juego con su etimología, es decir, se
+                            basa en la relación entre la masa y el volumen.El término está representado por la P, la
+                            cual va igual a la masa, es decir, M y la V que significa volumen. Con todo esto, se deduce
+                            que el término es proporcional al volumen, esto quiere decir que mientras menos volumen
+                            ocupe la masa, la consistencia será mayor. La fórmula de densidad en sus diferentes áreas,
+                            es p=m/v.
+                            <br>
+                            caracteristicas de la densidad: 
+                            <br>
+                            Las
+                            características se distribuyen entre la medición, sus instrumentos, unidades y fórmulas y
+                            los cambios producidos.
+                            Medición
+                            Se obtiene tanto directa como indirectamente. Si se hace de forma indirecta, se debe medir
+                            el volumen y la masa por separado para luego calcular la consistencia. La masa se mide con
+                            balanzas, en cambio, el volumen se mide logrando determinar la forma del cuerpo y midiendo
+                            cada dimensión o desplazamiento del líquido, claro está, cuando se trata de la densidad de
+                            un líquido.
+                            <br>
+                            Instrumentos: los más comunes para medir la consistencia son el densímetro (líquido), el
+                            picnómetro (sólidos, gases y líquidos), balanza hidrostática (sólidos) y balanza de mohr
+                            (líquidos).
+                            Unidades: las unidades de medida más empleadas son el kilogramo por metros cúbicos, es
+                            decir, kg/m³, en el Sistema Internacional de Unidades (SI). También está el gramo por
+                            centímetro cúbico, g/cm³, kilogramo por litro cúbico, kg/L³, entre otros.
+                            Fórmula: la fórmula es d=m/v., es decir, la densidad es igual a masa por volumen.
+                            tipos de densidad:Densidad absoluta
+                            No es más que la magnitud intensiva de la materia, la cual es empleada para expresar la
+                            relación existente entre el volumen y la masa de una sustancia determinada, entonces, se
+                            formula en kg/m³.
+                            <br>
+                            Densidad relativa
+                            Es definida como aquella consistencia que existe entre una sustancia de acuerdo a otra
+                            tomada como una referencia, originalmente se emplea la consistencia con referencia del agua
+                            a presiones de atmósferas a 4°c, en la cual las condiciones de densidad del agua es de al
+                            menos 1000 kg/cm³.
+                            <br>
+                            Densidad media
+                            Se define como aquella que es calculada en sistemas heterogéneos, entonces se divide la masa
+                            del cuerpo por el volumen que posee.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="fisica4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Densidad</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            ¿Qué es la presión?
+                            La presión es una magnitud física escalar representada con el símbolo p, que designa una
+                            proyección de fuerza ejercida de manera perpendicular sobre una superficie, por unidad de
+                            superficie.
+                            La presión relaciona una fuerza de acción continua y una superficie sobre la cual actúa, por
+                            lo cual se mide en el Sistema Internacional (SI) en pascales (Pa), equivalentes cada uno a
+                            un newton (N) de fuerza actuando sobre un metro cuadrado (m2) de superficie. En el sistema
+                            inglés, en cambio, se prefiere la medida de libras (pounds) por pulgadas (inches).
+                            <br>
+                            La materia comúnmente está sometida a distintas presiones. Por ejemplo, un gas dentro de
+                            cierto volumen ejercerá mayor presión si se le aumenta la temperatura. En general, los
+                            cambios de presión a los que se somete la materia puede obligarla a cambiar de estado de
+                            agregación, es decir, pasar de gas a líquido, por ejemplo, como suele hacerse con los gases
+                            hidrocarbúricos.
+                            <br>
+                            Otras unidades de medición de la presión incluyen el bar (10N/cm3), la atm o atmósfera
+                            (equivalente a unos 101325 pa), el Torr (equivalente a 133,32 pa), y los milímetros de
+                            mercurio (mmHg). El aparato diseñado para medir la presión se conoce como tensiómetro.
+                            tipos de presion:Absoluta. Es la presión que se
+                            ejerce sobre un cuerpo por la acción de algún elemento, más la presión atmosférica que sufre
+                            (todos cuerpos en el planeta están sometidos a la presión atmosférica).
+                            Atmosférica. Es la presión que ejerce el conjunto de la masa de gases de la atmósfera sobre
+                            la superficie terrestre y sobre todo lo que repose sobre ella. A medida que uno asciende con
+                            respecto al nivel del mar (en un avión, o subiendo una montaña), la presión atmosférica
+                            disminuye ya que hay menos masa de aire sobre nosotros.
+                            Manométrica. Es la presión que existe por sobre el valor de presión atmosférica. También
+                            llamada presión relativa, su valor corresponde a la diferencia entre el de la presión
+                            absoluta y el de la presión atmosférica. La presión relativa se mide utilizando un manómetro
+                            (de allí su nombre) y es es la que más se utiliza en la vida cotidiana.
+                            Hidrostática o hidrodinámica. Es la presión experimentada por fluidos, tanto debido al peso
+                            del propio fluido en reposo (hidrostática), como en constante movimiento (hidrodinámica).
+                            Usualmente se calcula una presión media entre las dos.
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------------------------------------------INGLES------------------------------------------------------->
+        <div class="modal fade " id="ingles1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Regular/Iregular verbs</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/Images/i1.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/i2.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/i3.jpeg" alt="" class="img-fluid">
+                        <hr>
+                        <img src="/Images/i5.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="ingles2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Past simple</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/Images/i4.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade " id="ingles3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Past continous</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="/Images/i6.jpeg" alt="" class="img-fluid">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="/jQuery/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="/bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

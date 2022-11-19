@@ -13,9 +13,8 @@ header {
     }
 
     a {
-        margin-right: 15px;
         text-decoration: none;
-        padding: 15px;
+        padding: 5px;
         border-radius: 20px;
         background-color: #fff;
         color: #9b59b6;
@@ -27,6 +26,10 @@ header {
         color: #7b4691;
         background-color: #eee;
         transition: .1s;
+    }
+    .btn{
+        margin-right: 10px;
+        border-radius: 20px;
     }
 }
 
@@ -66,6 +69,15 @@ header {
         color: #fff;
         transform: scale(1.1);
     }
+    a:hover:nth-child(4){
+        background-color: rgb(255, 73, 73);
+        color: #fff;
+        transform: scale(1.1);
+    }
+    a:hover:nth-child(5){
+        background-color: rgb(250, 254, 50);
+        transform: scale(1.1);
+    }
     a:hover:last-child{
         background-color: #fc6404;
         color: #fff;
@@ -73,11 +85,13 @@ header {
     }
 }
 footer{
-    position: relative;
-    top: 250px;
+    position: absolute;
+    bottom: 0;
+    left: 6vw;
     .container{
         display: flex;
         justify-content: space-around;
+        gap: 50px;
         a{  
             text-decoration: none;
             color: #fff;

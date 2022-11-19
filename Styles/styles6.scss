@@ -1,0 +1,35 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 150px;
+    }
+
+    a {
+        margin-right: 15px;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #9b59b6;
+        transition: .1s;
+        font-size: 1.2em;
+    }
+
+    a:hover {
+        color: #7b4691;
+        background-color: #eee;
+        transition: .1s;
+    }
+}
+textarea{
+    margin: auto;
+    width: 100%;
+    font-size: 7vw;
+}

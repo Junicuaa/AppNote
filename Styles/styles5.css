@@ -74,4 +74,8 @@ header a:hover {
   width: 100%;
 }
 
+#english .modal-body button {
+  margin: 5px;
+}
+
 /*# sourceMappingURL=styles5.css.map */
