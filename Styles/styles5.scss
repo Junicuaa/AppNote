@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+}
+header {
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 150px;
+    }
+
+    a {
+        margin-right: 15px;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+        background-color: #fff;
+        color: #9b59b6;
+        transition: .1s;
+        font-size: 1.2em;
+    }
+
+    a:hover {
+        color: #7b4691;
+        background-color: #eee;
+        transition: .1s;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    button{
+        margin-top: 40px;
+        width: 300px;
+        border-radius: 20px;
+        padding: 15px 0 15px 0;
+        font-size: 1.7em;
+        text-decoration: none;
+        transition: .3s;
+    }
+}
+#lengua{
+    .modal-body{
+        button{
+            margin: 5px;
+        }
+    }
+}
+#quimica{
+    .modal-body{
+        button{
+            margin: 5px;
+        }
+    }
+}
+#calculo{
+    .modal-body{
+        button{
+            margin: 5px;
+        }
+    }
+}
+#fisica{
+    .modal-body{
+        button{
+            margin: 5px;
+        }
+    }
+}
+#lengua4{
+    text-align: center;
+    audio{
+        border-radius: 20px;
+    }
+}
+#quimica1{
+    text-align: center;
+}
+#quimica3{
+    .modal-body{
+        video{
+            width: 100%;
+        }
+    }
+}
